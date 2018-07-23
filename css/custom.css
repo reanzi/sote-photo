@@ -1,0 +1,88 @@
+header {
+    background: url(../img/sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 780px;
+}
+.section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+.section .row {
+    background-color: #f5f5f5;
+}
+.tabs .indicator {
+    background-color: #1a237e;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background: transparent;
+}
+.btn {
+        background-color: #1a237e;
+}
+.btn:hover {
+    background-color: #616ffa;
+}
+[type="checkbox"]:checked+span:not(.lever):before {
+    border-right: 2px solid #1a237e;
+    border-bottom: 2px solid #1a237e;
+}
+.datepicker-date-display {
+    background-color: #1a237e;
+}
+.datepicker-table td.is-today {
+    background-color: #afb0de4a;
+    color: #602cbf;
+}
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+    color: #1a247e;
+}
+.datepicker-cancel:hover, .datepicker-done:hover {
+    color: #3b4aee;
+}
+.datepicker-table td.is-selected {
+    background-color: #1a237e;
+    color: #fff;
+}
+.input-field .prefix.active {
+    color: #1a237e;
+}
+input:not([type]):focus:not([readonly])+label,
+input[type=text]:not(.browser-default):focus:not([readonly])+label,
+input[type=password]:not(.browser-default):focus:not([readonly])+label,
+input[type=email]:not(.browser-default):focus:not([readonly])+label,
+input[type=url]:not(.browser-default):focus:not([readonly])+label,
+input[type=time]:not(.browser-default):focus:not([readonly])+label,
+input[type=date]:not(.browser-default):focus:not([readonly])+label,
+input[type=datetime]:not(.browser-default):focus:not([readonly])+label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label,
+input[type=tel]:not(.browser-default):focus:not([readonly])+label,
+input[type=number]:not(.browser-default):focus:not([readonly])+label,
+input[type=search]:not(.browser-default):focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #1a237e;
+}
+ /* #26a69a */
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #1a237e;
+    -webkit-box-shadow: 0 1px 0 0 #1a237e;
+    box-shadow: 0 1px 0 0 #1a237e;
+    color: #1a237e;
+}
+@media screen and (max-width: 670px) {
+    header {
+        min-height: 500px;
+    }
+}
